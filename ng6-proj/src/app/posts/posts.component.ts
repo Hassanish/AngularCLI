@@ -7,7 +7,9 @@ import { Observable } from 'rxjs';
   styleUrls: ['./posts.component.scss']
 })
 export class PostsComponent implements OnInit {
+  
   posts$: Object;
+
   constructor(private data: DataService) { }
 
   ngOnInit() {
